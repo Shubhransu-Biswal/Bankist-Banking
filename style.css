@@ -757,7 +757,7 @@ h4 {
   .nav__link--btn {
     /* padding: 0.8rem 1.5rem; */
     margin-top: 1rem;
-    transform: translateX(-0.5rem);
+    transform: translateX(-1rem);
   }
 }
 @media (max-width: 380px) {
