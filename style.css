@@ -752,6 +752,14 @@ h4 {
   }
 }
 
+@media (max-width: 396px) {
+  .nav__link--btn:link,
+  .nav__link--btn {
+    /* padding: 0.8rem 1.5rem; */
+    margin-top: 1rem;
+    transform: translateX(-0.5rem);
+  }
+}
 @media (max-width: 380px) {
   .operations__tab-container {
     justify-content: space-evenly;
