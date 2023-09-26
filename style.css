@@ -719,11 +719,30 @@ h4 {
     justify-content: space-evenly;
   }
 }
+@media (max-width: 562px) {
+  .slider {
+    height: 55rem;
+  }
+}
 @media (max-width: 380px) {
+  html {
+    font-size: 35%;
+  }
   .operations__tab-container {
     justify-content: space-evenly;
   }
   .operations__tab-container button {
     transform: scale(0.7);
+  }
+  .slider {
+    height: 65rem;
+  }
+}
+@media (max-width: 300px) {
+  html {
+    font-size: 30%;
+  }
+  .slider {
+    height: 78rem;
   }
 }
